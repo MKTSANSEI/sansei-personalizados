@@ -35,7 +35,7 @@
   </main>
   <footer><div class="wrap foot"><div><a class="logo" href="#inicio" aria-label="Sansei, inicio"><img src="assets/logo-sansei.png" alt="Sansei"></a><p>Regalos que hacen que tu marca se quede.</p></div><a href="#cotizar">COTIZAR UN PROYECTO ↗</a></div></footer>
   <script>
-    document.getElementById('quoteForm').addEventListener('submit', function(e){e.preventDefault();const d=new FormData(this);const msg=`Hola, quiero cotizar regalos personalizados.\n\n*Nombre:* ${d.get('nombre')}\n*Empresa:* ${d.get('empresa')}\n*Rubro:* ${d.get('rubro')}\n*Cantidad aproximada:* ${d.get('cantidad')}\n*Fecha:* ${d.get('fecha')||'A definir'}\n*Producto / idea:* ${d.get('idea')||'A definir'}`;window.open('https://wa.me/595981358100?text='+encodeURIComponent(msg),'_blank');});
+    document.getElementById('quoteForm').addEventListener('submit', function(e){e.preventDefault();const d=new FormData(this);const msg=`Hola, quiero cotizar regalos personalizados.\n\n*Nombre:* ${d.get('nombre')}\n*Empresa:* ${d.get('empresa')}\n*Rubro:* ${d.get('rubro')}\n*Cantidad aproximada:* ${d.get('cantidad')}\n*Fecha:* ${d.get('fecha')||'A definir'}\n*Producto / idea:* ${d.get('idea')||'A definir'}`;window.open('https://wa.me/595975677329?text='+encodeURIComponent(msg),'_blank');});
     document.querySelectorAll('.category-action').forEach(button=>button.addEventListener('click',()=>{document.querySelector('[name="idea"]').value=button.dataset.product;}));
   </script>
 </body>
