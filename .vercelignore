@@ -1,0 +1,6 @@
+catalog*.pdf
+catalog*.jpg
+*contact-sheet.jpg
+extract-catalog-images.js
+make-contact-sheet.ps1
+dist/assets/products/catalog*.jpg
