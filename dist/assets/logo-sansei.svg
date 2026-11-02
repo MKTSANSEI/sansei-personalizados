@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 94" role="img" aria-labelledby="title">
+  <title id="title">Sansei</title>
+  <g fill="none" stroke="#ef4038" stroke-linecap="round">
+    <path d="M14 54a33 33 0 0 1 66 0" stroke-width="6"/>
+    <path d="M8 54a39 39 0 0 1 78 0" stroke-width="5"/>
+    <path d="M3 54a45 45 0 0 1 88 0" stroke-width="4"/>
+  </g>
+  <path d="m16 62 31-19 31 19-31 18z" fill="#fff" stroke="#1b211e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M30 68v11h35V68" fill="none" stroke="#1b211e" stroke-width="5" stroke-linejoin="round"/>
+  <text x="105" y="70" fill="#ef4038" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="800" letter-spacing="-2">SANSEI</text>
+</svg>
