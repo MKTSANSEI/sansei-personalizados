@@ -1,6 +1,11 @@
-catalog*.pdf
-catalog*.jpg
-*contact-sheet.jpg
-extract-catalog-images.js
-make-contact-sheet.ps1
-dist/assets/products/catalog*.jpg
+/catalogo*.pdf
+/catalog*.jpg
+/*contact-sheet.jpg
+/copas.pdf
+/porta-bebidas.pdf
+/potes.pdf
+/termos.pdf
+/vasos.pdf
+/extract-catalog-images.js
+/make-contact-sheet.ps1
+/dist/assets/products/catalog*.jpg
