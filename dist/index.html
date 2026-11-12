@@ -105,6 +105,7 @@
     guiasSerigrafiaPorProducto['LED - Modelo 03']='assets/guias/guia-serigrafia-vaso-big-twister-led-700ml.png';
     guiasSerigrafiaPorProducto['Botellas - Modelo 09']='assets/guias/guia-serigrafia-garrafa-eco-water-fantasy-450ml.png';
     guiasSerigrafiaPorProducto['Botellas - Modelo 08']='assets/guias/guia-serigrafia-garrafa-eco-water-450ml.png';
+    guiasSerigrafiaPorProducto['Botellas - Modelo 07']='assets/guias/guia-serigrafia-garrafa-acqua.png';
     const normalizarCategoria=valor=>String(valor||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(palabra=>palabra.length>3&&palabra.endsWith('s')?palabra.slice(0,-1):palabra).filter(palabra=>!['de','del','la','el','los','las','personalizado','personalizada'].includes(palabra)).join(' ');
     const numeroWhatsApp= categoria=>whatsappPorCategoria[normalizarCategoria(categoria)]||whatsappPorDefecto;
     const numeroWhatsAppPorProducto=producto=>{const productoNormalizado=normalizarCategoria(producto),categoria=Object.keys(whatsappPorCategoria).find(clave=>productoNormalizado.includes(clave));return categoria?whatsappPorCategoria[categoria]:whatsappPorDefecto};
