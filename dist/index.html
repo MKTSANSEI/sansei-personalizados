@@ -138,6 +138,7 @@
     guiasSerigrafiaPorProducto['Vasos - Modelo 25']='assets/guias/guia-serigrafia-vaso-bucks-doble-pared-500ml.png';
     guiasSerigrafiaPorProducto['Vasos - Modelo 37']='assets/guias/guia-serigrafia-vaso-usual-drink-350ml.png';
     guiasSerigrafiaPorProducto['Vasos - Modelo 38']='assets/guias/guia-serigrafia-vaso-usual-drink-350ml.png';
+    guiasSerigrafiaPorProducto['Vasos - Modelo 36']='assets/guias/guia-serigrafia-vaso-on-the-rocks-290ml.png';
     guiasSerigrafiaPorProducto['Botellas - Modelo 07']='assets/guias/guia-serigrafia-garrafa-acqua.png';
     const normalizarCategoria=valor=>String(valor||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(palabra=>palabra.length>3&&palabra.endsWith('s')?palabra.slice(0,-1):palabra).filter(palabra=>!['de','del','la','el','los','las','personalizado','personalizada'].includes(palabra)).join(' ');
     const numeroWhatsApp= categoria=>whatsappPorCategoria[normalizarCategoria(categoria)]||whatsappPorDefecto;
